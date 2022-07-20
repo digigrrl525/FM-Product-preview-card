@@ -1,0 +1,161 @@
+    body {
+        background-color: hsl(30, 38%, 92%);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.875rem;
+        font-weight: 500;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+
+    main {
+        margin: 0 auto;
+        height: auto;
+    }
+
+    h1 {
+        font-family: 'Fraunces', serif;
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 1;
+        margin-bottom: 16px;
+        padding: 0 16px;
+    }
+
+    button {
+        background-color: hsl(158, 36%, 37%);
+        border: none;
+        border-radius: 6px;
+        color: hsl(0, 0%, 100%);
+        display: block;
+        font-size: 0.9rem;
+        text-align: center;
+        margin: 16px auto 24px auto;
+        padding: 16px;
+        width: 90%;
+    }
+
+    footer {
+        margin: 0 auto;
+        position: relative;
+        width: 100%;
+    }
+
+    .icon-cart {
+        color: hsl(0, 0%, 100%);
+        display: inline;
+        height: auto;
+        margin: 0 8px;
+        vertical-align: middle;
+        width: 14px;
+    }
+
+    #product-description {
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 0 0 10px 10px;
+        margin-left: 16px;
+        padding: 0;
+        position: absolute;
+        top: 260px;
+        width: 91.4%;
+    }
+
+    .product {
+        color: hsl(228, 12%, 48%);
+        letter-spacing: 0.3rem;
+        margin: 0 0 -12px 0;
+        padding: 20px 16px 0;
+        text-transform: uppercase;
+    }
+
+    p.description {
+        color: hsl(228, 12%, 48%);
+        line-height: 1.75;
+        margin: 0;
+        padding: 0 34px 20px 16px;
+    }
+
+    .discount {
+        color: hsl(158, 36%, 37%);
+        font-family: 'Fraunces', serif;
+        font-size: 2rem;
+        margin-left: 16px;
+    }
+
+    .price {
+        color: hsl(228, 12%, 48%);
+        text-decoration: line-through;
+        margin-left: 16px;
+        position: relative;
+        bottom: 6px;
+    }
+
+    .attribution { 
+        font-size: 11px; text-align: center; 
+    }
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    } 
+
+@media (min-width: 1440px) {
+    body {
+        width: 100%;
+        max-width: 1440px;
+    }
+
+    main.wrapper {
+        max-width: 100%;
+        position: relative;
+        text-align: center;
+    }
+
+    footer {
+        top: 725px;
+    }
+
+    .product-image {
+        border-radius: 10px 0 0 10px;
+        left: 171px;
+        position: relative;
+        top: 260px;
+        width: 19%;
+        height: auto;
+    }
+
+    #product-description {
+        border-radius: 0 10px 10px 0;
+        margin: 0 auto;
+        width: 19%;
+        text-align: left;
+        right: 138px;
+    }
+
+}
+
+@media (min-width: 375px) and (max-width: 1439px){
+    body {
+        width: 375px;
+        max-width: 375px;
+    }
+
+    main.wrapper {
+        max-width: 375px;
+        position: relative;
+        text-align: center;
+        
+    }
+
+    .product-image {
+        border-radius: 10px 10px 0 0;
+        margin: 20px 16px;
+        width: 343px;
+        height: auto;
+        max-width: 100%;
+        height: auto;
+    }
+
+    footer {
+        top: 525px;
+    }
+   
+}
