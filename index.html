@@ -6,21 +6,19 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Product preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-
-  <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
-
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>Frontend Mentor | Product preview card component</title>
 
 </head>
 <body>
-  <main class="wrapper">
+  <main> 
     <section id="image"> 
       <picture>
         <source media="(min-width: 1440px)" srcset="images/image-product-desktop.jpg">
@@ -28,30 +26,24 @@
         <img class="product-image" src="images/image-product-mobile.jpg" alt="Gabrielle Chanel Perfume Bottle">
       </picture>
     </section>
-
-    <section id="product-description">
-      <p class="product">Perfume</p>
-      <h1>Gabrielle Essence Eau De Parfum</h1>
-      <p class="description">
-        A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-        Perfumer-Creator for the House of CHANEL.
-      </p>
-      <span class="discount">$149.99</span>
-      <span class="price">$169.99</span>
-
-      <button><img class="icon-cart" src="images/icon-cart.svg" alt="cart icon">Add to Cart</button>
+    <section class="content">
+    <p id="category" class="montserrat-normal">Perfume</p>
+      <h1 class="fraunces-medium">Gabrielle Essence Eau De Parfum</h1>
+      <p id="description" class="montserrat-normal">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+        Perfumer-Creator for the House of CHANEL.</p>
+        <div class="prices">
+          <p id="sale-price" class="fraunces-medium">$149.99</p>
+          <p id="price" class="montserrat-normal">$169.99</p>
+        </div>
+        <button><img id="icon" src="./images/icon-cart.svg" alt="shopping cart icon">  Add to Cart</button>
     </section>
+    
   </main>
-<!--   
-  Add to Cart -->
 
-  <footer>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="https://github.com/digigrrl525/FM-Product-preview-card" target="_blank">Jaime Blockton</a>.
-    </div>
-  </footer>
   
-
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/digigrrl525?tab=repositories">Jaime Blockton</a>.
+  </footer>
 </body>
 </html>
